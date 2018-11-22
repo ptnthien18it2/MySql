@@ -1,21 +1,5 @@
-package gui;
-
-import java.awt.Container;
-import java.awt.FlowLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.sql.Connection;
-import java.sql.DriverManager;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JTextField;
-
-import com.mysql.jdbc.Statement;
-
 public class account extends JFrame {
+	
 	JLabel lblUser;
 	JTextField tfUser;
 	JLabel lblPass;
